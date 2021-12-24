@@ -52,7 +52,7 @@ export default function User({ navigation, route }) {
             imageStyle={{ borderRadius: 5 }}
           >
             <LinearGradient
-              colors={['transparent', 'transparent', COLORS.dark]}
+              colors={['transparent', 'rgba(13, 17, 23, .5)']}
               style={styles.gradient}
             >
               <Text
